@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="kodluyoruz.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Anasayfa</a></li>
+            <li><a href="filmler.html">Filmler</a></li>
+            <li><a href="oyunlar.html">Oyunlar</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="iletisim.html">İletişim</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="iletisim">
+            <h2>İletişim</h2>
+            <p>Bizimle iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz veya iletişim formunu doldurabilirsiniz.</p>
+
+            <h3>Adresimiz</h3>
+            <p>DVD Dünyası, DVD Sokak No: 5, Film Mahallesi, 34500 İstanbul</p>
+
+            <h3>Telefon</h3>
+            <p>+90 123 456 78 90</p>
+
+            <h3>E-posta</h3>
+            <p>info@dvddunyasi.com</p>
+
+            <h3>İletişim Formu</h3>
+            <form action="form-gonder.php" method="post">
+                <label for="isim">Adınız:</label><br>
+                <input type="text" id="isim" name="isim" required><br> <br>
+                
+                <label for="email">E-posta Adresiniz:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="mesaj">Mesajınız:</label><br>
+                <textarea id="mesaj" name="mesaj" rows="5" required></textarea><br><br>
+
+                <input type="submit" value="Gönder">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2012 DVD Dünyası. Tüm Hakları Saklıdır.</p>
+    </footer>
+
+
+
+    
+</body>
+</html>
