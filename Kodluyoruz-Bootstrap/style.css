@@ -1,0 +1,148 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #E9ECEF;
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    
+}
+
+p {
+    font-family: 'Verdana', sans-serif;
+    line-height: 1.6;
+}
+
+
+.p-price {
+    color: #28a745; /* Yeşil renk, başarılı işlemler için kullanılan renk */
+    font-weight: bold;
+    font-size: 1.2em; /* Fiyat için büyük ve dikkat çekici boyut */
+    text-shadow: 1px 1px 2px #000000; /* Gölgelendirme ile okunabilirlik artırılır */
+}
+
+
+
+.image-class {
+    width: 80%;  /* görüntüyü konteynera sığdırdık */
+    height: auto; 
+    border: 3px solid #333;  /* kenarlar- rengi ve kalınlığı  */
+    border-radius: 10; /* keskinliği azalttık */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* gölge attık */
+    margin-bottom: 20px; /* altta boşluk bıraktık  */
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+}
+
+#anasayfa {
+    background-color: #ddd;
+}
+
+#urunler {
+    background-color: #eee;
+}
+
+
+
+#iletisim {
+    background-color: #eee;
+}
+
+#hakkimizda {
+    background-color: #eee;
+}
+
+
+.p-price {
+    color: #e74c3c; /* Canlı bir kırmızı tonu */
+    font-weight: bold;
+    font-size: 1.1em; /* Büyük boyut */
+    text-shadow: 1px 1px 2px #000; /* Metin gölgesi ekleyerek okunabilirliği artırın */
+    margin-top: 10px; /* Üstte biraz boşluk */
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-title, .card-text, .p-price {
+    /* Sabit yüksekliği kaldır ve metinlerin taşmasına izin ver */
+    height: auto; 
+    overflow: visible;
+}
+
+
+
+.card-title {
+    margin-bottom: 15px;
+    font-size: 1.25em;
+}
+
+
+
+.card-title{
+    color: #007bff;
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+.card-body {
+    /* Kart gövdesi için de sabit yüksekliği kaldır */
+    height: auto;
+    padding: 20px;
+}
+
+.card {
+    width: 100%;
+    min-height: 350px;
+    background-color: #FFFFFF; /* Beyaz kart arka planı */
+    border: none; /* Kenarlık kaldırıldı */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge */
+}
+
+
+.jumbotron {
+    background-color: #f8f9fa; /* Açık gri arka plan */
+    padding: 2rem 1rem; /* İç boşluklar */
+    border-radius: 0.5rem; /* Kenar yuvarlaklığı */
+}
+
+.jumbotron h1 {
+    font-size: 2.5rem; /* Başlık boyutu */
+}
+
+.jumbotron p {
+    font-size: 1.2rem; /* Paragraf metin boyutu */
+}
+
