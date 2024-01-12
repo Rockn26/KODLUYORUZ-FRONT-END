@@ -1,7 +1,7 @@
 .gradient-background {
-  background: linear-gradient(300deg, lime, hotpink, lime);
+  background: linear-gradient(300deg, tomato, hotpink, lime);
   background-size: 180% 180%;
-  animation: gradient-animation 3s ease infinite;
+  animation: gradient-animation 30s ease infinite;
 }
 
 @keyframes gradient-animation {
@@ -14,4 +14,23 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+
+.ko-logo {
+  letter-spacing: 4px;
+  font-weight: 600;
+  filter: blur(0.5px);
+}
+
+.icon-square {
+  padding: 0.2rem;
+  border-radius: 0.3rem;
+}
+
+.testi-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
 }

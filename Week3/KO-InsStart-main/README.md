@@ -1,0 +1,1 @@
+Bu çalışma patika 18. haftasında workshopta yaptığımız bootstrap site klon çalışmasıdır.
